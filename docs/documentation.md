@@ -25,29 +25,29 @@
   - **Plan and structure the Repositories in the GitHub**
    -IoT1-API-Front-End/
     |--.github/
-    |   |--ISSUE_TEMPLATE/  \\templates for reporting bugs
+    |   |--ISSUE_TEMPLATE/       \\templates for reporting bugs
     |   |  |--bug_report.md
     |   |  |--feature_report.md  \\requesting features
     |   |--workflows/
-    |   |  |--ci.yml  \\workflows for automated testing
+    |   |  |--ci.yml             \\workflows for automated testing
     | 
     |--docs/
     |   |--README.md  \\main documentation file with project overview
     |   |--setup.md   \\detailed setup instruction
     |
-    |--src/    \\source code library
-    |  |--main/   \\ main application code
+    |--src/                      \\source code library
+    |  |--main/                  \\ main application code
     |  |  |--javascript/
     |  |      |--com/
     |  |         |--example/
-    |  |             |--app.js  \\ javascript source files
-    |  |--test/   \\test code
+    |  |             |--app.js    \\ javascript source files
+    |  |--test/                   \\test code
     |      |--javascript/
     |          |--com/
     |             |--example/
     |                 |--appTest.js  \\javascript test files
-    |--.gitignore.md  \\files & directories to be ignored by git
-    |--README.md  \\ main readme file at root level
-    |--LICENSE   \\ license for the project
-    |--CONTRIBUTING.md  \\ guidelines for contributing to the project
+    |--.gitignore.md                 \\files & directories to be ignored by git
+    |--README.md                     \\ main readme file at root level
+    |--LICENSE                       \\ license for the project
+    |--CONTRIBUTING.md               \\ guidelines for contributing to the project
 
