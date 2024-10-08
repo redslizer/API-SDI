@@ -93,3 +93,43 @@ Azure is Microsoft's cloud computing platform, offering a wide range of services
 ###Additional 
    - Explore hands-on labs or tutorials.
    - Consider earning a Microsoft Azure certification.
+
+##**AWS Parallels for Azure**
+1. Azure Virtual Machines (VM)         - Amazon EC2 (Elastic Compute Cloud)
+2. Azure Blob Storage	               - Amazon S3 (Simple Storage Service)
+3. Azure Virtual Networks (VNet)       - Amazon VPC (Virtual Private Cloud)
+4. Azure Active Directory (Azure AD)   - AWS IAM (Identity and Access Management)
+5. Azure App Service	                  - AWS Elastic Beanstalk
+6. Azure Cosmos DB	                  - Amazon DynamoDB
+7. Azure SQL Database	               - Amazon RDS (Relational Database Service)
+
+##**Getting familiar with Cypress**
+1. Installing Cypress
+   - Install Cypress via npm:
+         >cd /your/project/path
+         >npm install cypress --save-dev
+   
+   -If you're not using Node or a package manager (npm, pnpm or Yarn) in your project or you want to try    
+    Cypress out quickly, you can always download Cypress directly from 
+    (https://download.cypress.io/desktop)
+
+2. Opening Cypress
+   - Use the following command in your terminal
+      >npx cypress open
+
+3. Writing sample test case in Cypress
+   
+   - Page Navigation test case 
+      describe('GitHub Navigation Test', () => {
+      it('Should navigate to GitHub repo and click on Issues tab', () => {
+       
+        cy.visit("https://github.com/Shivk14/FAST_X1");
+
+        
+        cy.get('span[data-content="Issues"]').click();
+
+        
+        cy.url().should('include', '/issues');
+         });
+      });
+
